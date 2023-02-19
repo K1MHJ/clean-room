@@ -1,0 +1,32 @@
+.App {
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.room {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  background-color: gray;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.wall {
+  flex: 33%;
+  height: 100%;
+  background-color: brown;
+  border: 1px solid black;
+  display: grid;
+}
+.road {
+  flex: 33%;
+  height: 100%;
+  background-color: darkbrown;
+  border: 1px solid black;
+  display: grid;
+}
